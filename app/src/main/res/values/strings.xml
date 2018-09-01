@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">لرزه یاب</string>
+    <string name="about">درباره ما</string>
+    <string name="no_earthquake_found">زلزله ای پیدا نشد</string>
+    <string name="no_internet_connection">اینترنت قطع میباشد</string>
+    <string name="filter">فیلتر</string>
+    <string name="settings_title">تنظیمات زلزله</string>
+    <string name="settings_min_magnitude_label">کمترین میزان ریشتر</string>
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>
+    <string name="settings_min_magnitude_default" translatable="false">2</string>
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">نوع مرتب سازی</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">بر اساس بیشترین ریشتر</string>
+    <string name="settings_order_by_magnitude_value" translatable="false">magnitude</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">بر اساس آخرین زلزله ها</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>
+    <string name="about_us">درباره ما</string>
+    <string name="about_me">از طریق راه های زیر میتونید با من در ارتباط باشین</string>
+    <string name="email"><a href="mailto:foadkhezri1@gmail.com" target="_top">foadkhezri1@gmail.com</a></string>
+
+    <string name="linkedin">linkedin.com/in/foadkhezri</string>
+
+
+</resources>
