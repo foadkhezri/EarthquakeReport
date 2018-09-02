@@ -72,9 +72,10 @@ public class EarthquakeActivity extends AppCompatActivity  implements LoaderMana
         earthquakeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String url = earthQuakes.get(position).getUrl();
+                //String url = earthQuakes.get(position).getUrl();
 
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                Uri uri = Uri.parse(earthQuakes.get(position).getUrl());
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
         });
